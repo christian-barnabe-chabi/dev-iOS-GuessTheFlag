@@ -68,7 +68,7 @@ struct ContentView: View {
                 Spacer()
                 Spacer()
                 
-                Text("Right: \(rightAnswersCount) out of \(iteration)")
+                Text("Correct: \(rightAnswersCount) out of \(iteration)")
                     .font(.title.bold())
                     .foregroundStyle(.white)
                 
